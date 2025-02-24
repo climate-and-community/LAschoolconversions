@@ -50,5 +50,5 @@ starting_salary_rent_plot <- ggplot(starting_salary_rent_data, aes(year, ratio))
   scale_y_continuous(limits = c(35, 45), breaks = seq(0,100, by = 1))
 
 
-# Save the plot as an SVG file
+# Save the plot as an SVG file. I then modified it in Illustrator for the memo.
 ggsave("startingsalaryrentburden.svg", starting_salary_rent_plot, device = "svg")
